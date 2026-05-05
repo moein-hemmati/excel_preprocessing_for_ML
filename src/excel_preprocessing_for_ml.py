@@ -21,7 +21,7 @@ def encode_excel(input_path):
     print("Categorical columns found:")
     print(list(categorical_columns))
 
-    # Apply one-hot encoding
+    # Apply one-hot encoding zz
     df_encoded = pd.get_dummies(df, columns=categorical_columns)
 
     # Create output path (same folder, new name)
