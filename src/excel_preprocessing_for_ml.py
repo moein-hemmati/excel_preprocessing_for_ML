@@ -32,7 +32,7 @@ def encode_excel(input_path):
 
     output_path = os.path.join(folder, f"{name}-encoded{ext}")
 
-    # Save file
+    # Save file !
     df_encoded.to_excel(output_path, index=False)
 
     print(f"✅ Done! File saved at: {output_path}")
